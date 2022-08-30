@@ -1,0 +1,9 @@
+[flake8]
+inline-quotes = double
+max-line-length = 88
+extend-ignore = E203
+unused-arguments-ignore-abstract-functions = true
+unused-arguments-ignore-variadic-names = true
+unused-arguments-ignore-stub-functions = true
+per-file-ignores =
+    tests/*: S101
