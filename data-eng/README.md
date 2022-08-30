@@ -76,10 +76,10 @@ After dependencies are installed, in order to run the ETL pipeline, navigate to 
 docker-compose up
 ```
 This will build the Airflow image (make sure that you have Docker installed), including all its services: webserver, scheduler, triggered, and the PostgreSQL database where the data will be stored.  After the Airflow image building completion, you can access the web server UI via [localhost](http://localhost:8080/). And you will be redirected to the Airflow login session:
-![airflow](/docs/airflow-login.png)
+![airflow](./docs/airflow-login.png)
 
 The username and password are `airflow`. After the login session, you will be redirected to the main Airflow session where you can find the DAGs. In the Admin tab access the `Connections` section where you can insert the `PostgreSQL` database connection info.
-![postgresql](/docs/connection-config.png)
+![postgresql](./docs/connection-config.png)
 
 Below you can find some guidance on how to fill in the information for the database connection
 
